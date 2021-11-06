@@ -1,0 +1,79 @@
+@use "../custom" as *;
+
+.display-2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.display-3 {
+  font-family: 'PT Mono', monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #7b7b7b;
+}
+
+.display-4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.display-5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #5f5f5f;
+  margin-left: .75rem;
+  transition: 0.3s;
+}
+
+.display-5:hover {
+  color: white;
+}
+
+.display-6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.display-6:hover {
+  color: $primary;
+}
+
+.description {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 1.2rem;
+  color: white;
+}
+
+.description-light {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  display: block;
+  margin-top: 1.2rem;
+  color: white;
+}
+
+.description-project {
+  font-family: 'PT Mono', monospace;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}

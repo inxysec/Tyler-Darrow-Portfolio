@@ -1,0 +1,22 @@
+@use "../custom" as *;
+
+.web-wrapper {
+  background: #000;
+  border: 2px solid #fff;
+  border-bottom: 4px solid $primary;
+  border-radius: .175rem;
+  height: 6rem;
+  margin-bottom: 20px;
+  display:flex;
+
+  .web-content {
+    align-self: flex-end;
+  }
+
+  .web-icon {
+    align-self: flex-end;
+    position:relative;
+    left: 60%;
+    bottom: 30%;
+  }
+}

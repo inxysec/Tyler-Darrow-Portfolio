@@ -1,0 +1,20 @@
+@use "../custom" as *;
+
+.headshot {
+  height: 1%;
+  width: 80%;
+}
+
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-70%);
+}
+
+.hero-right {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translateY(-70%);
+}

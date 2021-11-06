@@ -1,0 +1,35 @@
+@use "../custom" as *;
+
+.project-square {
+  background: linear-gradient(to bottom right, $primary, $secondary);
+  border-radius: .175rem;
+  height: 25rem;
+  margin-bottom: 20px;
+  display:flex;
+}
+
+.project-square:hover {
+  background: #000;
+  border: 2px solid #fff;
+}
+
+.icon-wrapper {
+  display:flex;
+  align-self: flex-start;
+  width: 16px;
+  justify-content: space-between;
+}
+
+.icon {
+  margin: 0 .25rem;
+  color: #fff;
+  height: 32px;
+}
+
+.icon-wrapper {
+  margin-right: 1rem;
+}
+
+.content-wrapper {
+  align-self: center;
+}

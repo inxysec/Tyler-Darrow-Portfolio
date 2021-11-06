@@ -1,0 +1,16 @@
+@use 'custom';
+
+// IMPORT COMPONENTS
+@use 'components/_mixins';
+@use 'components/_typography';
+@use 'components/_buttons';
+
+// IMPORT SECTIONS
+@use 'sections/_hero';
+@use 'sections/_projects';
+@use 'sections/_personal-links.scss';
+
+// BODY
+body {
+  background: #000;
+}
